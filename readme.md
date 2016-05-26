@@ -15,6 +15,28 @@ Does WHOIS and DNS checks using [Ruby Whois] (https://whoisrb.org/) and [Resolv:
 #### Using the bin/domcheck file
 ```
 [reyloc@localhost ~] domcheck/bin/domcheck reyloc.com
+WHOIS Information
+    Domain:                      reyloc.com
+    Available:                   false
+    Registered:                  true
+    Created:                     2013-08-11 08:40:10 UTC
+    Updated:                     2015-11-26 05:23:53 UTC
+    Expires:                     2017-08-11 08:40:10 UTC
+    Nameservers:                 NS1.REYLOC.ORG
+                                 NS2.REYLOC.ORG
+    Technical Contact Name:      Jason Colyer
+    Technical Contact Email:     jcolyer2007@yahoo.com
+    Registrant Contact Name:     Jason Colyer
+    Registrant Contact Email:    jcolyer2007@yahoo.com
+    Admin Contact Name:          Jason Colyer
+    Admin Contact Email:         jcolyer2007@yahoo.com
+DNS Information
+    A Records:                   159.203.94.18
+    MX Records:                  mail.reyloc.org [45.55.41.134] (0)
+    NS Records:                  ns2.reyloc.org (45.55.185.212)
+                                 ns1.reyloc.org (104.236.243.147)
+    www resolves to:             159.203.94.18
+    PTR Informaation:            159.203.94.18=>web1.reyloc.org
 ```
 #### Using the class from lib/domain.rb
 ```
