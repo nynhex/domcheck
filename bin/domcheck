@@ -5,5 +5,5 @@ require_relative '../lib/domain'
 if ARGV[0].nil?
   abort("You did not supply a domain")
 end
-domain = Domain.new(ARGV[0])
-puts domain.info
+dom = Domain.new(ARGV[0])
+puts dom.info
