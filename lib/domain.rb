@@ -1,4 +1,5 @@
 require 'whois'
+require 'whois-parser'
 require 'resolv'
 require 'socket'
 
@@ -9,7 +10,7 @@ class Domain
   attr_reader :nameservers, :tech_name, :tech_email, :tech_id, :reg_name
   attr_reader :reg_email, :reg_id, :admin_name, :admin_email, :admin_id
   attr_reader :A, :MX, :NS, :www, :PTR
-  
+
   def initialize(domain)
     @domain   = domain
     @error = ''
