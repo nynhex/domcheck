@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    whois (4.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  whois (~> 4.0, >= 4.0.6)
+
+BUNDLED WITH
+   1.16.2
